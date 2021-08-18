@@ -1,16 +1,87 @@
-div#botao {
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center; 
+    font-family: sans-serif;
+    
+}
 
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 15px 75px;
+#logo{
+    position: relative;
+    width: 114px;
+    left: -180px;
+    top: 100px;
+}
 
-position: absolute;
-width: 274px;
-height: 63px;
-left: 582.61px;
-top: 718px;
+#geral{
+background-color: #F8F8F8;
+width: 500px;
+height: 640px;
+margin: 0 auto;
+box-shadow: 2px 2px 2px #F3F3F3;
+font-family: sans-serif;
+}
 
-background: #C4C4C4;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 10px;}
+input{
+	width: 200px;
+	height: 30px;
+	border-width: 1px;
+	border-color: silver;
+    border-radius: 5px;
+
+
+}
+
+label{
+	margin-left: -150px;
+    justify-content: center;
+    
+
+}
+
+.campo {
+    display: inline-block;
+    padding: 5px;
+}
+
+#titulo{
+    padding-top: 40px;
+}
+
+.campo label{
+    padding: 0px;
+}
+
+
+  .campo2 input{
+  width: 420px;
+  margin-left:0px;
+  }
+    
+
+    
+.campo2 label{
+ margin-left: -370px;
+ padding-bottom: 10px;
+
+    }
+    
+.botao {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px;
+
+}
+
+#sobre{
+    margin-left: -120px;
+    padding-bottom: 20px;
+}
+#redes{
+	padding: 15px;
+}
+
+button:hover{
+    background: r#E4E6E8
+}
